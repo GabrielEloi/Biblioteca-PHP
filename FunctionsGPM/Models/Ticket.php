@@ -16,7 +16,7 @@ function createTicketBD(string $titulo, string $descricao, string $status,  stri
 
     $search = $dataBase->query($sql);
 
-    $reg = $search->fetch_objetc();
+    $reg = $search->fetch_object();
 
     return $reg;
 
@@ -30,7 +30,7 @@ function listAllTickets(){
 
     $search = $dataBase->query($sql);
 
-    $reg = $search->fetch_objetc();
+    $reg = $search->fetch_object();
 
     return $reg;
 }
