@@ -19,6 +19,6 @@ require_once __DIR__ . '/Models/Ticket.php';
 require_once __DIR__ . '/Models/FunctionsMSG.php';
 
 //Carregar database
-require_once __DIR__ . '/Database/Connection.php';
+require_once __DIR__ . '/Database/FunctionBD.php';
 
 ?>
